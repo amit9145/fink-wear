@@ -163,6 +163,10 @@ const OurCollection = () => {
                 src={product.image}
                 alt={product.name}
                 className="w-full h-80 md:h-96 object-cover"
+                onError={(e) => {
+                  console.error('Image failed to load:', product.image, e);
+                  e.target.style.display = 'none';
+                }}
               />
               <div className="p-6">
                 <h3 className="text-lg md:text-xl font-semibold mb-2">{product.name}</h3>
