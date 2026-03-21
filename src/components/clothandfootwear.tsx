@@ -9,7 +9,7 @@ const ClothAndFootwearCollection = () => {
         {/* Left Image */}
         <div className="rounded-2xl overflow-hidden">
           <img
-            src="src/assets/clothandfootwear.jpg"
+            src="/assets/clothandfootwear.jpg"
             alt="Cloth And Footwear collection"
             className="w-full h-full object-cover"
           />

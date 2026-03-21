@@ -4,24 +4,24 @@ const CategoryHighlights = () => {
   const cards = {
     left1: {
       title: "Explore Now",
-      image: "src/assets/explore.jpg",
+      image: "/assets/explore.jpg",
       link: "/women"
     },
     left2: {
       title: "Explore Now", 
-      image: "src/assets/mens.jpg",
+      image: "/assets/mens.jpg",
       link: "/men"
     },
     rightTop: {
       label: "Women Collection",
       title: "Stylish Winter T-Shirt for Woman",
-      image: "src/assets/girls.jpg",
+      image: "/assets/girls.jpg",
       link: "/women"
     },
     rightBottom: {
       label: "Men Collection",
       title: "Stylish Winter Shirt for Man",
-      image: "src/assets/blackoxny.jpg",
+      image: "/assets/blackoxny.jpg",
       link: "/men"
     },
   };
