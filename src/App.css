@@ -1,0 +1,15 @@
+/* Import Tailwind first */
+@import "tailwindcss";
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Apply fonts */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Headings use Playfair Display */
+h1, h2, h3, h4, h5, h6 {
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
