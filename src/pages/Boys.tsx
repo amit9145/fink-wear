@@ -8,7 +8,7 @@ const Boys = () => {
       id: 21,
       name: "Classic Hoodie",
       price: "$89.99",
-      image: "/classic hoodies.jpg"
+      image: "/classichoodies.jpg"
     },
     {
       id: 22,
@@ -20,25 +20,25 @@ const Boys = () => {
       id: 23,
       name: "Boy's T-Shirt Collection",
       price: "$49.99",
-      image: "/boy tshirt.jpg"
+      image: "/boytshirt.jpg"
     },
     {
       id: 24,
       name: "Denim Jeans",
       price: "$79.99",
-      image: "/denim jeans.jpg"
+      image: "/denimjeans.jpg"
     },
     {
       id: 25,
       name: "Sport Jersey",
       price: "$69.99",
-      image: "/sport jersey.jpg"
+      image: "/sportjersey.jpg"
     },
     {
       id: 26,
       name: "Summer Shorts",
       price: "$39.99",
-      image: "/summer shorts.jpg"
+      image: "/summershorts.jpg"
     }
   ];
 
