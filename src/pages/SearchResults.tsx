@@ -7,44 +7,44 @@ const SearchResults = () => {
   // All products from all sections
   const allProducts = [
     // Men's products
-    { id: 1, name: "Men BLVCK Onyx Hoodie", price: "$180", image: "src/assets/blackoxny.jpg", category: "men" },
-    { id: 2, name: "LVR London Explorer Hoodie", price: "$230", image: "src/assets/LVRlondonexplore.jpg", category: "men" },
-    { id: 3, name: "Retro Repeat Tiger Hoodie", price: "$100", image: "src/assets/retrorepect.jpg", category: "men" },
-    { id: 4, name: "Hip Hop Street Wear Hoodie", price: "$120", image: "src/assets/hiphop.jpg", category: "men" },
-    { id: 5, name: "Mens Outwear", price: "$70", image: "src/assets/mensoutwear.jpg", category: "men" },
-    { id: 6, name: "Leather Jacket", price: "$250", image: "src/assets/outwearmensleather.jpg", category: "men" },
+    { id: 1, name: "Men BLVCK Onyx Hoodie", price: "$180", image: "/blackoxny.jpg", category: "men" },
+    { id: 2, name: "LVR London Explorer Hoodie", price: "$230", image: "/LVRlondonexplore.jpg", category: "men" },
+    { id: 3, name: "Retro Repeat Tiger Hoodie", price: "$100", image: "/retrorepect.jpg", category: "men" },
+    { id: 4, name: "Hip Hop Street Wear Hoodie", price: "$120", image: "/hiphop.jpg", category: "men" },
+    { id: 5, name: "Mens Outwear", price: "$70", image: "/mensoutwear.jpg", category: "men" },
+    { id: 6, name: "Leather Jacket", price: "$250", image: "/outwearmensleather.jpg", category: "men" },
     
     // Women's products
-    { id: 7, name: "Stylish Winter T-Shirt", price: "$85", image: "src/assets/girls.jpg", category: "women" },
-    { id: 8, name: "Abril Outwear Womens", price: "$120", image: "src/assets/abriloutwearwomens.jpg", category: "women" },
-    { id: 9, name: "Womens Crop Suede Jacket", price: "$150", image: "src/assets/WomensCropSuedeJacket.jpg", category: "women" },
-    { id: 10, name: "Minimalist Bracelet", price: "$40", image: "src/assets/womensbraclet.jpg", category: "women" },
-    { id: 11, name: "Classic Leather Bag", price: "$90", image: "src/assets/classicbags.jpg", category: "women" },
-    { id: 12, name: "Stylish Bags", price: "$75", image: "src/assets/stylesbags.jpg", category: "women" },
+    { id: 7, name: "Stylish Winter T-Shirt", price: "$85", image: "/girls.jpg", category: "women" },
+    { id: 8, name: "Abril Outwear Womens", price: "$120", image: "/abriloutwearwomens.jpg", category: "women" },
+    { id: 9, name: "Womens Crop Suede Jacket", price: "$150", image: "/WomensCropSuedeJacket.jpg", category: "women" },
+    { id: 10, name: "Minimalist Bracelet", price: "$40", image: "/womensbraclet.jpg", category: "women" },
+    { id: 11, name: "Classic Leather Bag", price: "$90", image: "/classicbags.jpg", category: "women" },
+    { id: 12, name: "Stylish Bags", price: "$75", image: "/stylesbags.jpg", category: "women" },
     
     // Boys' products
-    { id: 13, name: "Hip Hop Street Wear Hoodie", price: "$120", image: "src/assets/hiphop.jpg", category: "boys" },
-    { id: 14, name: "Retro Repeat Tiger Hoodie", price: "$100", image: "src/assets/retrorepect.jpg", category: "boys" },
-    { id: 15, name: "Stylish Summer Cap", price: "$60", image: "src/assets/summerstylecap.jpg", category: "boys" },
-    { id: 16, name: "Designer Caps", price: "$65", image: "src/assets/designercaps.jpg", category: "boys" },
-    { id: 17, name: "Boys Collection T-Shirt", price: "$45", image: "src/assets/mens.jpg", category: "boys" },
-    { id: 18, name: "Street Style Hoodie", price: "$95", image: "src/assets/blackoxny.jpg", category: "boys" },
+    { id: 13, name: "Hip Hop Street Wear Hoodie", price: "$120", image: "/hiphop.jpg", category: "boys" },
+    { id: 14, name: "Retro Repeat Tiger Hoodie", price: "$100", image: "/retrorepect.jpg", category: "boys" },
+    { id: 15, name: "Stylish Summer Cap", price: "$60", image: "/summerstylecap.jpg", category: "boys" },
+    { id: 16, name: "Designer Caps", price: "$65", image: "/designercaps.jpg", category: "boys" },
+    { id: 17, name: "Boys Collection T-Shirt", price: "$45", image: "/mens.jpg", category: "boys" },
+    { id: 18, name: "Street Style Hoodie", price: "$95", image: "/blackoxny.jpg", category: "boys" },
     
     // Girls' products
-    { id: 19, name: "Stylish Winter T-Shirt", price: "$85", image: "src/assets/girls.jpg", category: "girls" },
-    { id: 20, name: "Abril Outwear Womens", price: "$120", image: "src/assets/abriloutwearwomens.jpg", category: "girls" },
-    { id: 21, name: "Womens Crop Suede Jacket", price: "$150", image: "src/assets/WomensCropSuedeJacket.jpg", category: "girls" },
-    { id: 22, name: "Minimalist Bracelet", price: "$40", image: "src/assets/womensbraclet.jpg", category: "girls" },
-    { id: 23, name: "Classic Leather Bag", price: "$90", image: "src/assets/classicbags.jpg", category: "girls" },
-    { id: 24, name: "Stylish Bags", price: "$75", image: "src/assets/stylesbags.jpg", category: "girls" },
+    { id: 19, name: "Stylish Winter T-Shirt", price: "$85", image: "/girls.jpg", category: "girls" },
+    { id: 20, name: "Abril Outwear Womens", price: "$120", image: "/abriloutwearwomens.jpg", category: "girls" },
+    { id: 21, name: "Womens Crop Suede Jacket", price: "$150", image: "/WomensCropSuedeJacket.jpg", category: "girls" },
+    { id: 22, name: "Minimalist Bracelet", price: "$40", image: "/womensbraclet.jpg", category: "girls" },
+    { id: 23, name: "Classic Leather Bag", price: "$90", image: "/classicbags.jpg", category: "girls" },
+    { id: 24, name: "Stylish Bags", price: "$75", image: "/stylesbags.jpg", category: "girls" },
     
     // Accessories
-    { id: 25, name: "Minimalist Bracelet", price: "$40", image: "src/assets/womensbraclet.jpg", category: "accessories" },
-    { id: 26, name: "Elegant Watch Strap", price: "$55", image: "src/assets/menswatches.jpg", category: "accessories" },
-    { id: 27, name: "Classic Leather Bag", price: "$90", image: "src/assets/classicbags.jpg", category: "accessories" },
-    { id: 28, name: "Stylish Summer Cap", price: "$60", image: "src/assets/summerstylecap.jpg", category: "accessories" },
-    { id: 29, name: "Designer Caps", price: "$65", image: "src/assets/designercaps.jpg", category: "accessories" },
-    { id: 30, name: "Stylish Bags", price: "$75", image: "src/assets/stylesbags.jpg", category: "accessories" }
+    { id: 25, name: "Minimalist Bracelet", price: "$40", image: "/womensbraclet.jpg", category: "accessories" },
+    { id: 26, name: "Elegant Watch Strap", price: "$55", image: "/menswatches.jpg", category: "accessories" },
+    { id: 27, name: "Classic Leather Bag", price: "$90", image: "/classicbags.jpg", category: "accessories" },
+    { id: 28, name: "Stylish Summer Cap", price: "$60", image: "/summerstylecap.jpg", category: "accessories" },
+    { id: 29, name: "Designer Caps", price: "$65", image: "/designercaps.jpg", category: "accessories" },
+    { id: 30, name: "Stylish Bags", price: "$75", image: "/stylesbags.jpg", category: "accessories" }
   ];
 
   // Filter products based on search query

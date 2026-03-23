@@ -8,37 +8,37 @@ const Women = () => {
       id: 1,
       name: "Women BLVCK Onyx Hoodie",
       price: "$180",
-      image: "src/assets/blackoxny.jpg"
+      image: "/blackoxny.jpg"
     },
     {
       id: 2,
       name: "LVR London Explorer Hoodie",
       price: "$230",
-      image: "src/assets/LVRlondonexplore.jpg"
+      image: "/LVRlondonexplore.jpg"
     },
     {
       id: 3,
       name: "Retro Repeat Tiger Hoodie",
       price: "$100",
-      image: "src/assets/retrorepect.jpg"
+      image: "/retrorepect.jpg"
     },
     {
       id: 4,
       name: "Hip Hop Street Wear Hoodie",
       price: "$120",
-      image: "src/assets/hiphop.jpg"
+      image: "/hiphop.jpg"
     },
     {
       id: 5,
       name: "Classic Leather Bag",
       price: "$90",
-      image: "src/assets/classicbags.jpg"
+      image: "/classicbags.jpg"
     },
     {
       id: 6,
       name: "Stylish Summer Cap",
       price: "$60",
-      image: "src/assets/summerstylecap.jpg"
+      image: "/summerstylecap.jpg"
     }
   ];
 

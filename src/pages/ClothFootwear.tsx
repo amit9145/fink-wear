@@ -8,31 +8,31 @@ const ClothFootwear = () => {
       id: 31,
       name: "Designer Leather Jacket",
       price: "$299.99",
-      image: "src/assets/WomensCropSuedeJacket.jpg"
+      image: "/WomensCropSuedeJacket.jpg"
     },
     {
       id: 32,
       name: "Stylish Sneakers",
       price: "$149.99",
-      image: "src/assets/stylish sneakers.jpg"
+      image: "/stylish sneakers.jpg"
     },
     {
       id: 33,
       name: "Fashion Boots",
       price: "$179.99",
-      image: "src/assets/fashion boot.jpg"
+      image: "/fashion boot.jpg"
     },
     {
       id: 34,
       name: "Elegant Heels",
       price: "$159.99",
-      image: "src/assets/elegant heels.jpg"
+      image: "/elegant heels.jpg"
     },
     {
       id: 35,
       name: "Casual Canvas Shoes",
       price: "$89.99",
-      image: "src/assets/causal canvas shoes.jpg"
+      image: "/causal canvas shoes.jpg"
     }
   ];
 

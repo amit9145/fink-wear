@@ -8,37 +8,37 @@ const Men = () => {
       id: 1,
       name: "Men BLVCK Onyx Hoodie",
       price: "$180",
-      image: "src/assets/blackoxny.jpg"
+      image: "/blackoxny.jpg"
     },
     {
       id: 2,
       name: "LVR London Explorer Hoodie",
       price: "$230",
-      image: "src/assets/LVRlondonexplore.jpg"
+      image: "/LVRlondonexplore.jpg"
     },
     {
       id: 3,
       name: "Retro Repeat Tiger Hoodie",
       price: "$100",
-      image: "src/assets/retrorepect.jpg"
+      image: "/retrorepect.jpg"
     },
     {
       id: 4,
       name: "Hip Hop Street Wear Hoodie",
       price: "$120",
-      image: "src/assets/hiphop.jpg"
+      image: "/hiphop.jpg"
     },
     {
       id: 5,
       name: "Men's Denim Jacket",
       price: "$150",
-      image: "src/assets/mensoutwear.jpg"
+      image: "/mensoutwear.jpg"
     },
     {
       id: 6,
       name: "Classic Denim Jacket",
       price: "$130",
-      image: "src/assets/mensoutwear.jpg"
+      image: "/mensoutwear.jpg"
     }
   ];
 

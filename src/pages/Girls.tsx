@@ -4,37 +4,37 @@ const Girls = () => {
       id: 1,
       name: "Stylish Winter T-Shirt",
       price: "$85",
-      image: "src/assets/girls.jpg"
+      image: "/girls.jpg"
     },
     {
       id: 2,
       name: "Abril Outwear Womens",
       price: "$120",
-      image: "src/assets/abriloutwearwomens.jpg"
+      image: "/abriloutwearwomens.jpg"
     },
     {
       id: 3,
       name: "Womens Crop Suede Jacket",
       price: "$150",
-      image: "src/assets/WomensCropSuedeJacket.jpg"
+      image: "/WomensCropSuedeJacket.jpg"
     },
     {
       id: 4,
       name: "Minimalist Bracelet",
       price: "$40",
-      image: "src/assets/womensbraclet.jpg"
+      image: "/womensbraclet.jpg"
     },
     {
       id: 5,
       name: "Classic Leather Bag",
       price: "$90",
-      image: "src/assets/classicbags.jpg"
+      image: "/classicbags.jpg"
     },
     {
       id: 6,
       name: "Stylish Bags",
       price: "$75",
-      image: "src/assets/stylesbags.jpg"
+      image: "/stylesbags.jpg"
     }
   ];
 

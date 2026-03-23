@@ -4,37 +4,37 @@ const Accessories = () => {
       id: 1,
       name: "Minimalist Bracelet",
       price: "$40",
-      image: "src/assets/womensbraclet.jpg"
+      image: "/womensbraclet.jpg"
     },
     {
       id: 2,
       name: "Elegant Watch Strap",
       price: "$55",
-      image: "src/assets/menswatches.jpg"
+      image: "/menswatches.jpg"
     },
     {
       id: 3,
       name: "Classic Leather Bag",
       price: "$90",
-      image: "src/assets/classicbags.jpg"
+      image: "/classicbags.jpg"
     },
     {
       id: 4,
       name: "Stylish Summer Cap",
       price: "$60",
-      image: "src/assets/summerstylecap.jpg"
+      image: "/summerstylecap.jpg"
     },
     {
       id: 5,
       name: "Designer Caps",
       price: "$65",
-      image: "src/assets/designercaps.jpg"
+      image: "/designercaps.jpg"
     },
     {
       id: 6,
       name: "Stylish Bags",
       price: "$75",
-      image: "src/assets/stylesbags.jpg"
+      image: "/stylesbags.jpg"
     }
   ];
 
