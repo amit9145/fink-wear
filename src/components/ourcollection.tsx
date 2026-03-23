@@ -24,6 +24,13 @@ const allProducts = [
     category: "Trending",
   },
   {
+    id: 14,
+    name: "classic denim jacket",
+    price: "$130",
+    image: "/classicjacket.jpg",
+    category: "tranding",
+  },
+  {
     id: 13,
     name: "Retro Repeat Tiger Hoodie",
     price: "$105",
