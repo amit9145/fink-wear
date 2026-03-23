@@ -27,7 +27,7 @@ const allProducts = [
     id: 14,
     name: "classic denim jacket",
     price: "$130",
-    image: "/classicjacket.jpg",
+    image: "/classicdenim.jpg",
     category: "Trending",
   },
   {
