@@ -32,7 +32,7 @@ const Men = () => {
       id: 5,
       name: "Men's Denim Jacket",
       price: "$150",
-      image: "/classicdenim.jpg"
+      image: "/mensoutwear.jpg"
     },
     {
       id: 6,
