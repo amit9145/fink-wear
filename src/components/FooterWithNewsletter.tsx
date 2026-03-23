@@ -120,11 +120,11 @@ const FooterWithNewsletter = () => {
 
           {/* Legal Links */}
           <div className="flex flex-wrap justify-center gap-4 text-xs text-gray-500">
-            <a href="#" className="hover:text-white">Terms & Conditions</a>
+            <Link to="/terms" className="hover:text-white">Terms & Conditions</Link>
             <span>|</span>
-            <a href="#" className="hover:text-white">Privacy Policy</a>
+            <Link to="/privacy" className="hover:text-white">Privacy Policy</Link>
             <span>|</span>
-            <a href="#" className="hover:text-white">Disclosures</a>
+            <Link to="/disclosures" className="hover:text-white">Disclosures</Link>
           </div>
 
           {/* Copyright */}

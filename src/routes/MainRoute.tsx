@@ -18,6 +18,9 @@ import OurCollectionPage from "../pages/OurCollectionPage";
 import BenefitsSection from "../components/BenefitsSection";
 import SupportSection from "../components/SupportSection";
 import ContactSection from "../components/ContactSection";
+import TermsAndConditions from "../pages/TermsAndConditions";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Disclosures from "../pages/Disclosures";
 
 const MainRoute = () => {
   return (
@@ -45,6 +48,9 @@ const MainRoute = () => {
       <Route path="/benefits" element={<BenefitsSection />} />
       <Route path="/support" element={<SupportSection />} />
       <Route path="/contact" element={<ContactSection />} />
+      <Route path="/terms" element={<TermsAndConditions />} />
+      <Route path="/privacy" element={<PrivacyPolicy />} />
+      <Route path="/disclosures" element={<Disclosures />} />
     </Routes>
   );
 };
