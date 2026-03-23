@@ -38,7 +38,7 @@ const FooterWithNewsletter = () => {
             className="mb-8 md:mb-12"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-['Playfair_Display']">
-              Get <span className="text-rose-500">15% Off</span> Your First Order
+              Get <span className="text-rose-500">10% Off</span> Your First Order
             </h2>
             <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
               Join our exclusive newsletter for early access to new arrivals, special offers, and style tips from FINK

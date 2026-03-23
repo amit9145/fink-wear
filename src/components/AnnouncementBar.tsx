@@ -15,7 +15,7 @@ const AnnouncementBar = () => {
         </span>
         <span className="text-gray-300">|</span>
         <span className="text-rose-400 font-semibold">
-          Use Code: FIN15 for 15% Off
+          Use Code: FINK15 for 10% Off
         </span>
       </div>
       <button

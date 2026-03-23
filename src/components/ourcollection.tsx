@@ -117,6 +117,14 @@ const allProducts = [
     price: "$55",
     image: "/menswatches.jpg",
     category: "Accessories",
+  },
+
+  {
+    id: 15,
+    name: "designer caps",
+    price: "$65",
+    image: "/designercaps.jpg",
+    category: "Accessories",
   }
 ];
 

@@ -1,4 +1,7 @@
+import { useCart } from "../context/CartContext";
+
 const Accessories = () => {
+  const { addToCart } = useCart();
   const accessoriesProducts = [
     {
       id: 1,
@@ -38,12 +41,15 @@ const Accessories = () => {
     }
   ];
 
-  const handleAddToCart = (product) => {
-    // Add to cart logic
+  const handleAddToCart = (product: typeof accessoriesProducts[0]) => {
+    addToCart(product);
+    alert(`${product.name} added to cart!`);
   };
 
-  const handleBuyNow = (product) => {
-    // Buy now logic
+  const handleBuyNow = (product: typeof accessoriesProducts[0]) => {
+    addToCart(product);
+    alert(`Proceeding to checkout with ${product.name}!`);
+    // Navigate to cart or checkout page
   };
 
   return (
@@ -60,6 +66,21 @@ const Accessories = () => {
                   alt={product.name}
                   className="w-full h-full object-contain object-center p-3"
                 />
+                {/* Hover overlay */}
+                <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <button 
+                    onClick={() => handleAddToCart(product)}
+                    className="mb-2 bg-white text-black px-3 py-1.5 rounded-full hover:bg-gray-200 transition font-medium text-sm"
+                  >
+                    Add to Cart
+                  </button>
+                  <button 
+                    onClick={() => handleBuyNow(product)}
+                    className="bg-transparent border border-white text-white px-3 py-1.5 rounded-full hover:bg-white hover:text-black transition font-medium text-sm"
+                  >
+                    Buy Now
+                  </button>
+                </div>
               </div>
               <div className="p-3 sm:p-4">
                 <h3 className="text-sm sm:text-base md:text-lg font-semibold">{product.name}</h3>
