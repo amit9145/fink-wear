@@ -129,7 +129,7 @@ const FooterWithNewsletter = () => {
 
           {/* Copyright */}
           <p className="text-xs text-gray-600">
-            © 2025 FINK. All Rights Reserved.
+            © 2026 FINK. All Rights Reserved.
           </p>
         </div>
       </div>
